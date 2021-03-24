@@ -21,7 +21,7 @@ body {
   .matrix { text-align: center;
 }
 }
-.centered-main-page-element {
+.container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -57,6 +57,11 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
+#add-element{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+
 h3,
 label[for="new-task"] {
   color: #333;
@@ -88,9 +93,10 @@ input[type="text"]:focus {
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
+  grid-column: span 2;
 }
 input#new-task {
-  width: 318px;
+  width: 95%;
 }
 p > button:hover {
   color: #0fc57c;
