@@ -58,8 +58,8 @@ input,button{
 }
 /* Heading */
 #add-element{
-    display: grid;
-    grid-template-columns: 7fr 1fr;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
 }
 
 .title,
