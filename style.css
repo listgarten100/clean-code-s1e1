@@ -55,7 +55,7 @@ h3 {
 }
 
 input,
-button{
+button {
   outline: none;
 }
 
@@ -76,7 +76,7 @@ button{
 }
 
 /* Heading */
-#add-element{
+#add-element {
   display: grid;
   grid-template-columns: 7fr 1fr;
 }
@@ -151,7 +151,7 @@ button{
   width: 226px;
 }
 
-.input-text{
+.input-text {
   width: 226px;
 }
 
